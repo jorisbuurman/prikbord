@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    padding:0;
+    margin: 0;
+}
+
+.box{
+    background-image: url("https://www.informaticaserver.nl/ne122579/Fotos/img4.jpg");
+    width: 100%;
+    position: absolute;
+    background-repeat:repeat-y;
+    background-size: 100% auto;
+}
+
+
+.title{
+    text-align: center;
+    font-family: Tektur;
+    font-size: 4vw;
+    margin-top: 5%;
+    color: white;
+}
+
+#navbar{
+    overflow: hidden;
+    z-index: 2;
+    background-color:  rgba(0, 0, 0, 0.8); ;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1%;
+    text-decoration: none;
+    font-size: 1.5vw;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+  
+#navbar a.loguit {
+    float: right;
+}
+
+#navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+#navbar a.loguit:hover{
+    background-color: red;
+    color: black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + .berichten {
+    padding-top: 10%;
+}
+
+.berichten{
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    position: relative;
+    left: 10%;
+}
+
+.bericht{
+    border: #2180fe solid 3px;
+    background-color: rgba(0,0,0,.8);
+    padding: 2%;
+    color: white;
+    font-size: 2vw;
+    border-radius: 20px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.bericht a{
+    padding: 1%;
+    text-decoration: none;
+}
+.bericht a:hover{
+    background-color: white;
+}
+.bericht a.weg{
+    float: right;
+}
+
+.bericht a.weg:hover{
+    background-color: red;
+}
+
+#toevoegen{
+    z-index: 2;
+    border: black solid 0px;
+    background-color: white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    left:93%;
+}
+
+#toevoegen a{
+    text-align: center;
+    display: block;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+#toevoegen:hover{
+    background-color: #2180fe;
+}
+
+.sticky2 {
+    position: fixed;
+    top: 87%;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.8); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #2180fe; 
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white; 
+}

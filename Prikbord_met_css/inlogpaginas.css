@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    padding:0;
+    margin: 0;
+    background-color: aquamarine;  
+}
+
+.box{
+    background-image: url("https://www.informaticaserver.nl/ne122579/Fotos/img4.jpg");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.box_lang{
+    background-image: url("https://www.informaticaserver.nl/ne122579/Fotos/img4.jpg");
+    width: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.title{
+    text-align: center;
+    font-family: Tektur;
+    font-size: 4vw;
+    margin-top: 5%;
+    color: white;
+}
+.invullen{
+    border-radius: 20px;
+    width: 25%;
+    height: auto;
+    left: 37.5%;  
+    position: absolute;
+    padding-bottom: 1%;
+}
+
+.invullen a {
+    border: 1px solid #2180fe;
+    padding: 3%;
+    font-size: 1vw;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1%;
+    width: 95%;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 1%;
+    color: #2180fe;
+    text-shadow: black 0px 0px 20px;
+    position: relative;
+}
+
+.invullen a:hover{
+    background-color: rgba(0, 0, 0, 0.5);  
+    color: white;
+}
+
+input{
+    display: block;
+    position:relative;
+    text-align: center;
+    padding: 5%;
+    width: 95%;
+    margin: 2.5%;
+    border-radius: 10px;
+    font-size: 2vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+}
+input:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.wachtwoord_fout {
+    z-index: 2;
+    color:white;
+    background-color:#001737;
+    width: 50%;
+    border: 10px solid rgb(221, 48, 48);
+    border-radius: 10px;
+    padding: 50px;
+    position: absolute;
+    right:25%;
+    top: 20%;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.wachtwoord_fout a{
+    text-decoration: none;
+    padding: 3%;
+    color: white;
+}
+.wachtwoord_fout a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.kopje{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2vw;
+    color: white;
+}
+
+.account{
+    border: 5px solid black;
+    margin: 20%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding: 1em;
+    border-radius: 10px;
+    font-size: 1vw;
+}
+
+.knoppen a{
+    border: 5px solid black;
+    padding: 2%;
+    font-size: 2vw;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    margin: 30%;
+    width: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+    border-radius: 10px; 
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 2vw;
+    color: #2180fe;
+    box-shadow: black 0px 0px 10px;;
+}
+
+.knoppen a:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.knoppen .vac:hover{
+    background-color: red;
+}
+
+textarea{
+    padding: 2%;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+    border-radius: 10px;
+    font-size: 1vw;
+    background-color: rgba(245, 245, 245, 0.7);
+}
+
+.bericht input{
+    position:relative;
+    padding: 2%;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.bericht input:hover{
+    color: #2180fe;
+}
+
+.verwijder{
+    z-index: 2;
+    color:white;
+    background-color:#001737;
+    width: 50%;
+    border: 10px solid rgb(221, 48, 48);
+    border-radius: 10px;
+    padding: 50px;
+    position: absolute;
+    right:25%;
+    top: 20%;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.verwijder a{
+    text-decoration: none;
+    padding: 3%;
+    color: white;
+}
+.verwijder a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}

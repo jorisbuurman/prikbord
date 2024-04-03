@@ -1,0 +1,47 @@
+html{
+    color: white;
+}
+
+body{
+    background-color: #3B4044;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    font-size: 3vw;
+    margin-left: 40%;
+}
+
+.box{
+    border:#181D20,solid,100px;
+    z-index: 2;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #181D20;
+    font-size: 1vw;
+
+}
+
+#nietgekozen{
+    background-color: rgba(0,0,0,.5);
+}
+
+#gekozen{
+    background-color: #FEAB00;
+}
+#keuze{
+    text-decoration: none;
+    background-color: #DA6C00;
+}
+
+#weg{
+    display: none;
+}

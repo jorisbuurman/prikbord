@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+html, body {
+    padding:0;
+    margin: 0;
+    background-color: aquamarine;  
+}
+
+.box{
+    background-image: url("https://www.informaticaserver.nl/ne122579/Fotos/img4.jpg");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.title_groot{
+    text-align: center;
+    font-family: Tektur;
+    font-size: 7vw;
+    margin-top: 17%;
+    color: white;
+}
+
+.opties {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5%;
+
+}
+
+
+.opties a{
+    border: 1px solid #2180fe;
+    padding: 2%;
+    font-size: 2vw;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1%;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    left: 28%;
+    color: #2180fe;
+    text-shadow: #061b46 0px 0px 10px;
+}
+
+.opties a:hover{
+    background-color: rgba(0, 0, 0, 0.5);  
+    color: white;
+}
+
+
+.wachtwoord_fout {  
+    z-index: 2;
+    color:white;
+    background-color:#001737;
+    width: 50%;
+    border: 10px solid rgb(221, 48, 48);
+    border-radius: 10px;
+    padding: 50px;
+    position: absolute;
+    right:25%;
+    top: 20%;
+    text-align: center;
+    font-size: 1vw;
+}
+
+.wachtwoord_fout a{
+    text-decoration: none;
+    padding: 3%;
+    color: white;
+}
+.wachtwoord_fout a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
